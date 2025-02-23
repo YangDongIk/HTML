@@ -18,3 +18,57 @@
   font-size: 2vw;
   font-weight: bold;
 }
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 20vw;
+  background-color: cadetblue;
+  margin: 20px;
+  padding: 40px;
+  /* border: 4px solid black; */
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  /* x축오프셋, y축 오프셋, 그림자 길이, 페이드아웃(블러) */
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+}
+
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background-color: cornflowerblue;
+  /* float: left; */
+  display: inline-block;
+}
+
+.main-content {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  /* float: left; */
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  clear: both;
+}
