@@ -1,3 +1,11 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
 .profile {
   width: 100px;
   display: block;
@@ -71,4 +79,76 @@
   height: 100px;
   background-color: grey;
   clear: both;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/shoes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: brightness(70%); */
+  padding: 1px;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.main-contents {
+  color: white;
+  text-align: center;
+  width: 300px;
+  white-space: normal;
+  /* margin-bottom: 50px; */
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  /* bottom: 200px;
+  left: 540px; */
+  clear: both;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+}
+
+.bottom-box {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%;
+  max-width: 650px;
+  height: 200px;
+  top: -50px;
+  background-color: #eee;
+}
+
+.bottom-title {
+  text-align: center;
+  padding-top: 30px;
+}
+.bottom-contents {
+  text-align: center;
+  width: 60%;
+  max-width: 500px;
+  white-space: normal;
+  /* margin-bottom: 50px; */
+  left: 0;
+  right: 0;
+  margin: auto;
 }

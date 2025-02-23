@@ -13,7 +13,7 @@
 .left-container {
   width: 70%;
   height: 200px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   float: left;
   padding: 15px;
 }
@@ -65,5 +65,21 @@
 }
 
 .left-content {
-  clear: both
+  /* clear: both */
+  margin-top: 10px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background-color: #eee;
 }
