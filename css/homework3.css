@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "nanum";
+  src: url(../fonts/NanumSquareAcB.woff);
+}
+
 div,
 table {
   box-sizing: border-box;
@@ -5,6 +10,11 @@ table {
 
 table {
   border-collapse: collapse;
+}
+
+body {
+  margin: 0px;
+  font-family: "nanum";
 }
 
 .out-box {
