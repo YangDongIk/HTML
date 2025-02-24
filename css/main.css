@@ -152,3 +152,10 @@ body {
   right: 0;
   margin: auto;
 }
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  font-size: medium;
+  border-radius: 5px;
+}
