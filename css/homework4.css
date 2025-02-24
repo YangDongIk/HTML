@@ -1,0 +1,36 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-box {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-box > div {
+  flex: 1 1 100%;
+}
+
+.with-bold {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.without-bold {
+  font-weight: 200;
+}
+
+@media screen and (min-width: 768px) {
+  .main-box > div {
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-box > div {
+    flex: 1 1 calc(25% - 10px);
+  }
+}
