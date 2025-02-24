@@ -1,0 +1,111 @@
+div,
+table {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.out-box {
+  background-color: #b2ccd6;
+  width: 70%;
+  max-width: 1200px;
+  height: 600px;
+  min-height: 400px;
+  padding: 40px;
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  color: #3d5f80;
+}
+
+table {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 800px;
+  padding: 15px;
+}
+
+thead > tr {
+  font-family: "Lucida Grande";
+  font-size: 15px;
+  height: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+tr {
+  border-bottom: 1px solid #3d5f80;
+  color: #aec2c9;
+}
+
+.porduct-img {
+  width: 120px;
+  height: 100px;
+}
+
+.brand-name,
+.product-name {
+  margin: 0;
+}
+
+.brand-name {
+  font-family: "Corperplate";
+  color: black;
+  font-weight: bolder;
+}
+
+.product-name {
+  font-family: "Avenir";
+  font-weight: 500;
+}
+
+.unit-price,
+.total-price,
+.total-amount {
+  text-align: right;
+}
+
+.unit-amount {
+  text-align: center;
+}
+
+.total-price,
+.total-amount {
+  color: #133761;
+  padding-right: 10px;
+}
+
+.total-amount {
+  font-weight: 500;
+}
+
+.last-row {
+  border-bottom: none;
+  height: 70px;
+}
+
+.box-footer {
+  margin-top: 20px;
+}
+
+.edit-cart {
+  font-size: 15px;
+  text-decoration: underline;
+  float: left;
+}
+
+.payment-method {
+  float: right;
+}
+
+.payment-method > button {
+  background-color: #133761;
+  color: white;
+  border-style: none;
+  height: 70px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 140;
+  border-radius: 10px;
+}
