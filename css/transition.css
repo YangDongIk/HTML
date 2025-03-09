@@ -1,0 +1,49 @@
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container {
+  display: flex;
+  max-width: 1200px;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 100%;
+  opacity: 0;
+  transition: all 1s;
+  /* transition-timing-function: cubic-bezier(); */
+  /* align-items: center; */
+
+  color: #eee;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.overlay-wrap:hover .overlay {
+  margin-top: 50%;
+  opacity: 1;
+}
